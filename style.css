@@ -1,0 +1,103 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ul li {
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color:blue;
+    padding: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: navajowhite;
+}   
+.title{
+    text-align:center;
+    color:Tomato;   
+}
+.color{
+    color:blueviolet;
+}
+.fix-color{
+    color:azure;
+}
+h1{
+    font-size: 40px;
+    color:darkblue;
+}
+h2{
+    font-size: 38px;
+}
+.vl{
+    border-left: 6px solid orange;
+    height:100px;
+    left:50%;
+}
+p{
+    font-size: 22px;
+}
+.link-button{
+    text-decoration: none;
+    text-align: center;
+    background-image: radial-gradient(red,orange);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.flexible-container{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 60px;
+}
+.half-width img{
+    width: 400px;
+}
+#mission{
+    background-color:cadetblue;
+}
+#vission{
+    background-color:burlywood;
+}
+#goals{
+    background-color:coral;
+}
+.mission{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 10px;
+}
+.flex-box{
+    display: flex;
+    width: 10px;
+}
+.image{
+    border-radius: 10px;
+    width: 300px;
+    height: 220px;
+}
+.container{
+    width: 300px;
+    height: 600px;
+    margin-left: 62px;
+    margin-right: 22px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding-right: 22px;
+    padding-left: 22px;
+    padding-top: 22px;
+    box-shadow: 10px 15px 40px darkgray;
+    border-radius: 20px;
+}   
+.footer{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:lightsalmon;
+}
